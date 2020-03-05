@@ -59,7 +59,9 @@ class Child extends Person {
         super(dateOfBirth);
         this.Category = PersonCategory.Child;
     }
-    canSignContracts(): boolean { return false; }
+    canSignContracts(): boolean {
+        return false;
+    }
 }
 
 class Adult extends Person  {
@@ -67,7 +69,9 @@ class Adult extends Person  {
         super(dateOfBirth);
         this.Category = PersonCategory.Adult;
     }
-    canSignContracts(): boolean { return true; }
+    canSignContracts(): boolean {
+        return true;
+    }
 }
 
 class PersonFactory implements IPersonFactory {
