@@ -1,0 +1,16 @@
+{
+  "name": "factory-method",
+  "version": "1.0.0",
+  "description": "",
+  "main": "factory-method.js",
+  "scripts": {
+    "dev": "./node_modules/.bin/tsc-watch --pretty --outDir ./dist --onSuccess \"node ./dist/ocp.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tsc-watch": "^4.2.3",
+    "typescript": "^3.8.3"
+  }
+}

@@ -51,7 +51,9 @@ class Infant extends Person {
         super(dateOfBirth);
         this.Category = PersonCategory.Infant;
     }
-    canSignContracts(): boolean { return false; }
+    canSignContracts(): boolean {
+        return false;
+    }
 }
 
 class Child extends Person {

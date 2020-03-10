@@ -23,12 +23,12 @@ class Page {
 }
 
 class PagePrinter  {
-    static printer(page: Page) {
+    static print(page: Page) {
         console.log(page.data)
     }
 }
 
 (function main(){
     let book = new Book('Hola Mundo', 'Juan Diego Sierra Fernández');
-    PagePrinter.printer(book.getCurrentPage());
+    PagePrinter.print(book.getCurrentPage());
 })();
